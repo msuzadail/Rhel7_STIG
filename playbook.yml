@@ -1,4 +1,4 @@
 ---
 - hosts: all
   roles:
-    - role: redhatofficial.rhel7_disa_stig
+    - role: Rhel7_STIG
