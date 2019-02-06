@@ -1,4 +1,5 @@
 ---
 - hosts: all
   roles:
-    - role: Rhel7_STIG
+    - role: redhatofficial.rhel7_disa_stig
+  ignore_errors: yes
